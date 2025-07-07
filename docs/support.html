@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GenTrip Support</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/gentrip/gentrip/master/apps/native/assets/images/favicon.png"
+      type="image/png"
+    />
+    <style>
+      .nav-header {
+        background: var(--secondary);
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+      }
+
+      .nav-links a {
+        color: var(--muted-foreground);
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.2s ease;
+      }
+
+      .nav-links a:hover {
+        color: var(--primary);
+      }
+
+      .nav-links a.active {
+        color: var(--primary);
+      }
+
+      .contact-card {
+        background: var(--primary);
+        color: var(--primary-foreground);
+        padding: 3rem 2rem;
+        border-radius: 12px;
+        margin: 2rem 0;
+        text-align: center;
+      }
+
+      .contact-card h3 {
+        color: var(--primary-foreground);
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+      }
+
+      .contact-card a {
+        color: var(--primary-foreground);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.2rem;
+      }
+
+      .contact-card a:hover {
+        text-decoration: underline;
+      }
+
+      .contact-card p {
+        color: var(--primary-foreground);
+        opacity: 0.9;
+      }
+
+      @media (max-width: 768px) {
+        .nav-links {
+          flex-direction: column;
+          gap: 1rem;
+          text-align: center;
+        }
+
+        .contact-card {
+          padding: 2rem 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav-header">
+      <div class="container">
+        <div class="nav-links">
+          <a href="index.html">Privacy Policy</a>
+          <a href="support.html" class="active">Support</a>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <h1>GenTrip Support</h1>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="content">
+          <section class="intro">
+            <p class="intro-text">
+              Need help with GenTrip? We're here to assist you with any
+              questions or issues you may have.
+            </p>
+          </section>
+
+          <div class="contact-card">
+            <h3>Get in Touch</h3>
+            <p>Email us for support, questions, or feedback:</p>
+            <a href="mailto:gentripapp@gmail.com">gentripapp@gmail.com</a>
+            <p style="margin-top: 1.5rem; font-size: 0.9rem">
+              We typically respond within 24-48 hours.
+            </p>
+          </div>
+
+          <section>
+            <h2>What to Include in Your Message</h2>
+            <ul>
+              <li>Describe your issue or question clearly</li>
+              <li>Include your device type (iPhone, Android)</li>
+              <li>Mention the app version if reporting a bug</li>
+              <li>Add screenshots if helpful</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Common Issues</h2>
+            <ul>
+              <li>
+                <strong>Can't sign in?</strong> Make sure you're using the same
+                login method (Google, Apple, or Facebook) you used to create
+                your account
+              </li>
+              <li>
+                <strong>Trips not syncing?</strong> Check your internet
+                connection and try refreshing the app
+              </li>
+              <li>
+                <strong>App crashing?</strong> Try restarting the app or
+                updating to the latest version
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 GenTrip. All rights reserved.</p>
+        <p>
+          For support:
+          <a href="mailto:gentripapp@gmail.com">gentripapp@gmail.com</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
